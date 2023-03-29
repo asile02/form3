@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+
+text-align: center;
+
+background-color: #FAFAFA;
+
+margin: 60px auto;
+}
+header h3{
+
+font-family: "Poppins", Arial, sans-serif;
+
+font-size: 28px;
+
+color: #000000;
+}
+.contact{
+
+display: flex;
+
+justify-content: space-between;
+
+width: 80%;
+
+margin: 30px auto;
+}
+.info{
+
+width: 100%;
+
+text-align: center;
+}
+.icon{background: #2553B8;width: 50px;height: 50px;text-align: center;line-height: 50px;font-size: 15px;color: #fff;margin: auto;margin-bottom: 20px;border-radius: 31px;}
+.info p{font-size: 16px;font-family: "Poppins", Arial, sans-serif;color: #666666;}
+.info p a{
+    
+color: #2553B8;
+    
+text-decoration: none;
+}
+.info p span{color: #000;}
+.form{
+    display: flex;
+    height: 350px;
+    width: 80%;
+    margin: 30px auto;
+    margin-bottom: 173px;
+}
+.contact_form{
+
+width: 60%;
+
+padding: 40px 50px;
+}
+.contact_form h3{
+    font-size: 20px;
+    font-size: 28px;
+    font-family: "Poppins", Arial, sans-serif;
+    margin-bottom: 13px;
+}
+form{
+
+}
+.flex{
+
+display: flex;
+
+justify-content: space-between;
+}
+form label{
+    font-size: 15px;
+    font-family: "Poppins", Arial, sans-serif;
+}
+form input{
+    font-size: 15px;
+    font-family: "Poppins", Arial, sans-serif;
+    width: 100%;
+    border: none;
+    padding: 15px 10px;
+}
+form input[type="submit"]{
+    width: auto;
+    background-color: #2553B8;
+    color: #ffff;
+    border-radius: 6px;
+    padding: 10px 10px;
+}
+form textarea{
+    width: 100%;
+    font-size: 15px;
+    font-family: "Poppins", Arial, sans-serif;
+    border: none;
+    padding: 12px 10px;
+}
+.map{
+    width: 40%;
+    margin: auto;
+}
+.form_image img{
+    
+width: 100%;
+}
